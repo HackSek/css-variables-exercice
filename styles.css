@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background: grey;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-size: 50px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+img {
+  width: 70vh;
+}
