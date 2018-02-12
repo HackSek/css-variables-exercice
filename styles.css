@@ -1,9 +1,19 @@
+:root {
+  --blur: 5px;
+  --spacing: 15px;
+  --base: black;
+}
+
 body {
   text-align: center;
   background: grey;
   color: white;
   font-family: 'helvetica neue', sans-serif;
   font-size: 50px;
+}
+
+.hl {
+  color: var(--base);
 }
 
 .controls {
@@ -16,4 +26,7 @@ input {
 
 img {
   width: 70vh;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
 }
