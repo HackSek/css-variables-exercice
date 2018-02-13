@@ -1,6 +1,6 @@
 :root {
   --blur: 5px;
-  --spacing: 15px;
+  --spacing: 70px;
   --base: black;
 }
 
@@ -9,15 +9,11 @@ body {
   background: grey;
   color: white;
   font-family: 'helvetica neue', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .hl {
   color: var(--base);
-}
-
-.controls {
-  margin-bottom: 50px;
 }
 
 input {
@@ -25,8 +21,11 @@ input {
 }
 
 img {
-  width: 70vh;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  width: 60vh;
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
+  transition: 0.2s;
 }
